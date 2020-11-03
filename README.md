@@ -118,22 +118,15 @@ class MainActivity : AppCompatActivity(), PollView.CardPollWidgetCallBack {
 
 #### Layout(XML)
 ```xml
-<com.androchef.happytimer.countdowntimer.DynamicCountDownView
-            android:id="@+id/dynamicCountDownView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:dynamic_timer_text_color="@android:color/white"
-            app:dynamic_timer_text_separator_color="@color/colorGrey"
-            app:dynamic_timer_text_size="12sp"
-            app:dynamic_timer_separator_text_size="15sp"
-            app:dynamic_timer_text_isBold="true"
-            app:dynamic_timer_text__separator_isBold="true"
-            app:dynamic_timer_text_separator=":"
-            app:dynamic_show_hour="true"
-            app:dynamic_show_labels="true"
-            app:dynamic_show_minutes="true"
-            app:dynamic_show_seconds="true"
-            />
+    <com.androar.droidgram.GradientTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:gradientStartColor="@color/default_gradient_text_view_color_two"
+        app:gradientEndColor="@color/default_gradient_text_view_color_three"
+        android:text="You like ice-cream though, don't you?"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
 ```
 
 #### Activity Or Fragment

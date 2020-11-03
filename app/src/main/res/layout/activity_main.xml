@@ -32,7 +32,7 @@
         app:pollBackgroundColor="@color/white"
         app:pollOptionsCornerRadius="10dp"
         app:questionText="@string/app_name" />
-rr
+
     <com.androar.droidgram.GradientTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
