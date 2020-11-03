@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~  http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  ~
+  ~ This project is only for EDUCATIONAL PURPOSES and IS NOT related / DOES NOT tend to copy any intellectual property of Instagram.
+  ~
+  -->
+
+<resources>
+    <declare-styleable name="PollView">
+
+        <attr name="pollCardHeight" format="dimension" />
+        <attr name="pollOptionsHeight" format="dimension" />
+        <attr name="pollOptionsCornerRadius" format="dimension" />
+
+        <attr name="pollBackgroundColor" format="color" />
+        <attr name="optionOneBackgroundColor" format="color" />
+        <attr name="optionTwoBackgroundColor" format="color" />
+
+        <attr name="questionText" format="string" localization="suggested" />
+        <attr name="questionTextColor" format="color" />
+        <attr name="questionTextSize" format="dimension" />
+
+        <attr name="optionOneText" format="string" localization="suggested" />
+        <attr name="optionOneStartColor" format="color" />
+        <attr name="optionOneEndColor" format="color" />
+        <attr name="optionOneTextSize" format="dimension" />
+
+
+        <attr name="optionTwoText" format="string" localization="suggested" />
+        <attr name="optionTwoStartColor" format="color" />
+        <attr name="optionTwoEndColor" format="color" />
+        <attr name="optionTwoTextSize" format="dimension" />
+
+        <attr name="pollDividerColor" format="color" />
+
+        <attr name="optionOnePercentage" format="float" />
+        <attr name="optionTwoPercentage" format="float" />
+
+        <attr name="defaultOptionOneFromValue" format="float" />
+        <attr name="defaultOptionTwoFromValue" format="float" />
+
+        <attr name="pollAnimationDuration" format="integer" />
+
+        <attr name="minThresholdValue" format="float" />
+        <attr name="maxThresholdValue" format="float" />
+
+
+    </declare-styleable>
+
+    <declare-styleable name="GradientTextView">
+
+        <attr name="gradientStartColor" format="color" />
+        <attr name="gradientEndColor" format="color" />
+
+    </declare-styleable>
+
+
+</resources>
